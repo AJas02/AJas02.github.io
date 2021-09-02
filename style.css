@@ -1,0 +1,170 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: rgb(181, 204, 252); 
+ text-align: center;
+
+}
+/* Create border around Fact Generator*/
+.factGen {
+  border: #050d24 dotted 2px;
+  border-bottom: none;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #050d24;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  font-size: 50px;
+  text-decoration: underline cornflowerblue double; 
+  padding-top: 4% ;
+  padding-bottom: 10px;
+  text-align: center
+
+}
+
+/*Quote from embedded Youtube video*/
+h2{
+  font-family:'Cinzel', serif;
+  text-align: center;
+  font-size: 50px;
+
+}
+/*Donate gradient Header on Get Invloved page*/
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 280px;
+  text-align: center;
+  background: linear-gradient(#050d24,cornflowerblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  
+}
+
+/*Styles links*/
+a {
+  color: #050d24 ;
+  text-decoration: underline #050d24 dotted;
+}
+p {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', serif;
+color: #050d24;
+padding-top: 2%;
+padding-bottom: 2%;
+padding-left: 5%;
+padding-right: 5%;
+margin: 1%;
+font-size: 140%;
+}
+
+/*Styles footer text*/
+.footer {
+  font-size: 20px;
+  text-emphasis: bold;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 0px;
+  text-decoration:underline #050d24 dotted;
+
+}
+/*Styles text on About page*/
+.about {
+  padding-bottom: 27%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/* STYLE IMAGES */
+/*Styles Youtube Video*/
+iframe{
+ padding-left: 5%;
+ padding-right: 5%;
+}
+
+img{
+  width: 90%;
+  height: 600px;
+  padding-right: 5%;
+  padding-left: 5%;
+
+}
+/* STYLE NAV BAR */
+nav{
+  background-color: cornflowerblue;
+  padding: 10px;
+}
+ul {
+  overflow: hidden;
+  margin:0%;
+  padding-bottom:0%;
+  text-align: center;
+}
+li {
+  display: inline;
+}
+
+li a {
+  color:#050d24;
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 10px;
+}
+li a:hover {
+  background-color:#050d24;
+  color: cornflowerblue;
+  
+
+}
+/* STYLE BUTTONS */
+button{
+  color:cornflowerblue;
+  border: none;
+  padding: 20px 40px;
+  font-size: 20px;
+  text-align: center;
+  display: inline-flex;
+  background-color:#050d24;
+  border-radius: 4px;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 2px;
+
+}
+
+.button {
+  transition-duration: .4s;
+}
+.button:hover {
+background-color: rgb(181, 204, 252); 
+
+}
+
+button a {
+  text-decoration: none;
+  color: cornflowerblue;
+
+}
+
+#myButton:hover {
+background-color: cornflowerblue; 
+  color:#050d24;
+  text-decoration: underline #050d24;
+  transition-duration: .4s;
+
+}
+
+/* ADD MORE! */
+footer{
+  background-color: cornflowerblue;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  text-align: center;
+  margin-top: 1px;
+   
+}
+
